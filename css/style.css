@@ -27,7 +27,7 @@ body.overflow {
   position: fixed;
   top: 0;
   z-index: 1;
-  transition: all 1s;
+  transition: top 1s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +72,7 @@ svg {
 .span-opening {
   position: relative;
   top: 4px;
-  transition: all 1s;
+  transition: color 1s;
 }
 
 .span-opening.black {
