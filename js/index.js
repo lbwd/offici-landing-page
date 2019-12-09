@@ -18,7 +18,3 @@ function onClick() {
     document.getElementsByTagName('body')[0].classList.add('overflow');
   }
 }
-
-document.getElementsByTagName('top-cover').ontouchend = e => {
-  e.preventDefault();
-};
