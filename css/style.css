@@ -47,6 +47,7 @@ body.overflow {
   font-size: 28px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 }
 
 svg {
@@ -103,6 +104,11 @@ svg {
   font-family: 'Open Sans', sans-serif;
 }
 
+.project a {
+  color: white;
+  font-weight: bolder;
+}
+
 .main-text {
   position: relative;
   top: 25px;
@@ -145,5 +151,13 @@ svg {
   .main-text {
       top: 75px;
       margin: 0 10vw;
+  }
+
+  .project {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 400px;
   }
 }
