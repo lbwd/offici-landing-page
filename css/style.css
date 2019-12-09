@@ -11,6 +11,10 @@ body {
   overflow: hidden;
 }
 
+html {
+  overflow: hiddeh;
+}
+
 body.overflow {
   overflow-y: auto;
 }

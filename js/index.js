@@ -6,7 +6,9 @@ function onClick() {
     document.getElementsByClassName('top-arrow')[0].classList.remove('rotate');
     document.getElementsByClassName('bot-arrow')[0].classList.remove('rotate');
     document.getElementById('top-cover').classList.remove('final');
-    document.getElementsByClassName('span-opening')[0].classList.remove('black');
+    document
+      .getElementsByClassName('span-opening')[0]
+      .classList.remove('black');
     document.getElementsByTagName('body')[0].classList.remove('overflow');
   } else {
     document.getElementsByClassName('top-arrow')[0].classList.add('rotate');
@@ -16,3 +18,7 @@ function onClick() {
     document.getElementsByTagName('body')[0].classList.add('overflow');
   }
 }
+
+document.getElementsByTagName('top-cover').ontouchend = e => {
+  e.preventDefault();
+};
