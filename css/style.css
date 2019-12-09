@@ -1,7 +1,6 @@
 body {
   width: 100%;
   margin: 0;
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +12,7 @@ body {
 }
 
 body.overflow {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 #top-cover {
@@ -145,6 +144,14 @@ svg {
   .main-text {
       margin: 0 15vw;
   }
+
+  .project {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -153,11 +160,7 @@ svg {
       margin: 0 10vw;
   }
 
-  .project {
-    font-size: 12px;
-  }
-
-  .logo {
-    width: 400px;
+  #opening {
+    top: 25px;
   }
 }
