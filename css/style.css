@@ -13,7 +13,7 @@ body {
 }
 
 body.overflow {
-  overflow-y: auto;
+  overflow: auto;
 }
 
 #top-cover {
