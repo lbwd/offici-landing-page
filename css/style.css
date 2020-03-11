@@ -99,7 +99,7 @@ svg {
 
 .project {
   position: absolute;
-  bottom: 50px;
+  bottom: 35px;
   right: 35px;
   z-index: 2;
   color: white;
@@ -164,6 +164,11 @@ svg {
   .logo {
     width: 400px;
   }
+
+  .project {
+    bottom: 20px;
+    right: 20px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -174,5 +179,10 @@ svg {
 
   #opening {
     top: 25px;
+  }
+
+  .project {
+    bottom: 10px;
+    right: 10px;
   }
 }
